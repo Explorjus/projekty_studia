@@ -1,0 +1,8 @@
+def padovan(n):
+    if n == 0 or n == 1 or n == 2:
+        return 1
+    return padovan(n-2) + padovan(n-3)
+
+# Przykład: wypisanie pierwszych 15 wyrazów ciągu Padovana
+for i in range(15):
+    print(padovan(i), end=' ')
