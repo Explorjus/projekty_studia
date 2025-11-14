@@ -1,0 +1,6 @@
+Declare Integer i = 1
+Declare Integer y = 2
+while i <= n do
+    y = y*x(i)
+    i = i + 1
+return y
